@@ -1,0 +1,22 @@
+.tetris{
+    padding: 24px;
+}
+
+.tetris-board-container{
+    /* padding: 24px; */
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col{
+    width: 24px;
+    height: 24px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(183, 180, 180);
+}
